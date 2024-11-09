@@ -76,7 +76,7 @@ def travel_right():
 def game_objective():
     if xcor() > 100:        # xcor is a turtle function thats gives x position
         hideturtle()        # it hides the turtle tip when the condition is true
-        color("blue")      # making color white 
+        color("white")      # making color white 
         write("Player Won") # game goal 
 
         # Adding these so that the player Won message won't get displayed after the crab reach sea
